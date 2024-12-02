@@ -69,6 +69,12 @@ button:nth-child(1)
     background-color: rgb(161, 161, 161);
 
 }
+button:nth-child(1):hover
+{
+  text-shadow: 1px 10px 2px black;
+  background-color: transparent;
+  transition:ease-in-out 0.3s;
+}
 button:nth-child(2)
 {
     font-size: 15px;
